@@ -1,0 +1,32 @@
+.search-button {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+}
+.search-button--primary {
+  color: white;
+  background-color: #6eb5e8;
+}
+.search-button--secondary {
+  color: #333;
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 0 0 1px inset;
+}
+.search-button--small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+.search-button--medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+.search-button--large {
+  font-size: 16px;
+  padding: 12px 24px;
+}
+.search-button--center {
+  align-content: center;
+}
